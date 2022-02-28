@@ -12,6 +12,7 @@ tags:
 - Econometría
 - Python
 - Jupyter
+- Pronósticos
 categories:
 - Pronósticos
 date: 2021-04-06T16:59:03-06:00
