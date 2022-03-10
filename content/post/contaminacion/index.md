@@ -38,11 +38,11 @@ projects: []
 
 Esta publicación será breve. Navegando por internet me tope con [esta página](http://sinat.semarnat.gob.mx/retc/retc/consulta.php?anio=2019&tipb=1) de la Secretaria de Medio Ambiente y Recursos Naturales (SEMARNAT), que tiene por un lado, el punto geográfico (latitud y longitud) de las empresas contaminantes, y por otro lado, datos de la contaminación en México, por diferentes fuentes, destacando las emisiones al aire, agua, y suelo. 
 
-Considerando la anterior información, utilicé webscrapping para descargar ambas bases de datos, las uní, y tuve la contaminación por punto geográfico. Entonces, con dicha información preparé el siguiente mapa de calor con la contamiación en México:
+Considerando la anterior información, utilicé webscrapping para descargar ambas bases de datos, las uní, y tuve la contaminación por punto geográfico. Entonces, con dicha información preparé el siguiente mapa de calor con la contaminación en México:
 
 <iframe
     src='./static/contaminacion.html'
     width='100%'
-    height='1000px'
+    height='500px'
     style='border:none;'>
 </iframe>
