@@ -30,4 +30,4 @@ projects: []
 
 ## Sistema de Información a Municipios
 
-<iframe width="700" height="900" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=BD690B672B3ADC3A%212130&authkey=%21AHJLClJHb5vhmDs&em=2&Item=Ficha&wdHideGridlines=True&wdInConfigurator=True"></iframe>
+<iframe width="800" height="1200" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=BD690B672B3ADC3A%212130&authkey=%21AHJLClJHb5vhmDs&em=2&wdAllowInteractivity=False&AllowTyping=True&Item=Ficha&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
