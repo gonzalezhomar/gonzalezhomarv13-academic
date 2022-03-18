@@ -4,9 +4,9 @@
 title: "Un módelo de Zombies"
 subtitle: "Un módelo basado en agentes de zombies en Guanajuato"
 summary: "Un módelo basado en agentes de zombies en Guanajuato"
-authors: 
+authors:
 - admin
-tags: 
+tags:
 - Julia
 - Maps
 - Agentes
@@ -40,8 +40,8 @@ Me gustan las publicaciones breves y sencillas. Este pequeño ejercicio lo hice 
 
 {{< tweet 1440344544713719818 >}}
 
-Usando el ejemplo de la [documentación](https://juliadynamics.github.io/Agents.jl/stable/examples/zombies/), lo adapte para la ciudad de Guanajuato capital. Y qué más poético que el primer zombie salga del museo de las momias de Guanajuato. Disfruten:
+Usando el ejemplo de la [documentación](https://juliadynamics.github.io/Agents.jl/stable/examples/zombies/), lo adapte para la ciudad de Guanajuato capital. Son 100 puntos que representan personas viajando en Guanajuato, más 1 zombie. ¿Y qué más poético que el primer zombie salga del museo de las momias de Guanajuato? Disfruten:
 
-![png](outbreak.png)
+![png](outbreak.gif)
 
 Besos.
