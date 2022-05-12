@@ -9,9 +9,9 @@ authors:
 tags: 
 - Python
 - Maps
-- WebScrapping
-- Blog
-categories: [Blog]
+- DENUE
+- Datashader
+categories: [Maps]
 date: 2022-03-16T15:27:20-06:00
 lastmod: 2022-03-16T15:27:20-06:00
 featured: false
@@ -30,7 +30,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: [mapas]
 ---
 
 ## Mapas con todos los bares y taquerías en México
