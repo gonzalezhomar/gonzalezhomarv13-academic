@@ -32,6 +32,6 @@ projects: [dataviz]
 
 A través del uso de *Webscrapping* tomé los precios de las principales farmacias en el estado de Guanajuato: farmacias Guadalajara, farmacias del ahorro y farmacias Benavides de la sección de bebés. Con ellos preparé la siguiente herramienta para comparar precios:
 
-<iframe width="700" height="399" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=BD690B672B3ADC3A%212134&authkey=%21ADuB2ES7YOXmcQk&em=2&ActiveCell='Hoja2'!B3&Item=Calculadora&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True&edesNext=false&ejss=false"></iframe>
+<iframe width="700" height="400" frameborder="0" scrolling="no" src="https://onedrive.live.com/embed?resid=BD690B672B3ADC3A%212134&authkey=%21ADuB2ES7YOXmcQk&em=2&AllowTyping=True&ActiveCell='Hoja2'!B3&Item=Calculadora&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True&wdInConfigurator=True&edesNext=false&ejss=false"></iframe>
 
 Precios al 11 de mayo de 2022. Los logos de las empresas se usan únicamente para asociar los precios a las tiendas que los ofrecen.
