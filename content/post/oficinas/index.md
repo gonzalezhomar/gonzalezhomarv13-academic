@@ -11,7 +11,8 @@ tags:
 - Maps
 - WebScrapping
 - Blog
-categories: [Blog]
+- Folium
+categories: [Maps]
 # Date published
 categories: []
 date: 2021-05-25T17:06:51-05:00
@@ -32,7 +33,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: [mapas]
 ---
 
 ## Objetivo
