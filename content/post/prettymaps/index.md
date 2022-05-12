@@ -7,12 +7,12 @@ summary: "Jugando con el proyecto *Prettymaps*"
 authors: 
 - admin
 tags: 
-- Series de Tiempo
-- Economía
-- Econometría
+- Maps
+- Cartografía
 - Python
 - Jupyter
-categories: 
+- Prettymaps
+categories: [Maps]
 date: 2021-09-23T17:45:39-05:00
 lastmod: 2021-09-23T17:45:39-05:00
 featured: false
@@ -31,7 +31,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: [mapas]
 ---
 
 ## 1. Introducción
