@@ -11,8 +11,8 @@ tags:
 - Maps
 - WebScrapping
 - Folium
-- Blog
-categories: [Blog]
+- Openrouteservice
+categories: [Maps]
 date: 2022-03-29T15:48:56-06:00
 lastmod: 2022-03-29T15:48:56-06:00
 featured: false
@@ -32,7 +32,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: [mapas]
 ---
 
 ## Oficialías del Registro Civil
