@@ -12,7 +12,7 @@ tags:
 - Agentes
 - Simulación
 - Blog
-categories: [Blog]
+categories: [Maps]
 date: 2022-03-18T15:19:29-06:00
 lastmod: 2022-03-18T15:19:29-06:00
 featured: false
@@ -31,7 +31,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: []
+projects: [mapas]
 ---
 
 ## Un módelo basado en agentes de zombies en Guanajuato
