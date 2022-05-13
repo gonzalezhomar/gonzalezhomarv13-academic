@@ -6,7 +6,7 @@ subtitle: "Un mapa de farmacias ISSEG y de la competencia"
 summary: "Un mapa de farmacias ISSEG y de la competencia"
 authors: [admin]
 tags: [Python, Jupyter, DENUE, ISSEG, farmacias, Folium]
-categories: [Maps]
+categories: [Mapas]
 date: 2022-05-10T12:34:39-05:00
 lastmod: 2022-05-10T12:34:39-05:00
 featured: false
