@@ -33,6 +33,8 @@ content:
     tag: Dataviz
   - name: Elecciones
     tag: Elecciones
+  - name: Mapas
+    tag: Mapas
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
