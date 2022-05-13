@@ -11,7 +11,7 @@ tags:
 - Maps
 - Contaminación
 - Blog
-categories: [Maps]
+categories: [Mapas]
 date: 2022-03-09T18:19:26-06:00
 lastmod: 2022-03-09T18:19:26-06:00
 featured: false
@@ -30,7 +30,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects: [Maps]
+projects: [Mapas]
 ---
 
 
