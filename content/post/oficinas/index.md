@@ -12,9 +12,8 @@ tags:
 - WebScrapping
 - Blog
 - Folium
-categories: [Maps]
+categories: [Mapas]
 # Date published
-categories: []
 date: 2021-05-25T17:06:51-05:00
 lastmod: 2021-05-25T17:06:51-05:00
 featured: false
