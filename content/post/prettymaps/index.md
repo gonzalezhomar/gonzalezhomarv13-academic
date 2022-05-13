@@ -7,12 +7,12 @@ summary: "Jugando con el proyecto *Prettymaps*"
 authors: 
 - admin
 tags: 
-- Maps
+- Mapas
 - Cartografía
 - Python
 - Jupyter
 - Prettymaps
-categories: [Maps]
+categories: [Mapas]
 date: 2021-09-23T17:45:39-05:00
 lastmod: 2021-09-23T17:45:39-05:00
 featured: false
