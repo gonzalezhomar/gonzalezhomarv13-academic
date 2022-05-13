@@ -11,7 +11,7 @@ tags:
 - Maps
 - DENUE
 - Datashader
-categories: [Maps]
+categories: [Mapas]
 date: 2022-03-16T15:27:20-06:00
 lastmod: 2022-03-16T15:27:20-06:00
 featured: false
