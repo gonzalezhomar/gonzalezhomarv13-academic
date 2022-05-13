@@ -8,10 +8,10 @@ authors:
 - admin
 tags: 
 - Python
-- Maps
+- Mapeando
 - Contaminación
 - Blog
-categories: [Mapas]
+categories: []
 date: 2022-03-09T18:19:26-06:00
 lastmod: 2022-03-09T18:19:26-06:00
 featured: false
