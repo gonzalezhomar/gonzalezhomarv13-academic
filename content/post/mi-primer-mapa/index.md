@@ -11,7 +11,7 @@ tags:
 - Maps
 - WebScrapping
 - Blog
-categories: [Maps]
+categories: [Mapas]
 # Date published
 date: "2020-01-30T00:00:00Z"
 
