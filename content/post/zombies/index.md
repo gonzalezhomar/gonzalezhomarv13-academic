@@ -8,11 +8,11 @@ authors:
 - admin
 tags:
 - Julia
-- Maps
+- Mapas
 - Agentes
 - Simulación
 - Blog
-categories: [Maps]
+categories: [Mapas]
 date: 2022-03-18T15:19:29-06:00
 lastmod: 2022-03-18T15:19:29-06:00
 featured: false
