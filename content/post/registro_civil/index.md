@@ -8,11 +8,11 @@ authors:
 - admin
 tags: 
 - Python
-- Maps
+- Mapeando
 - WebScrapping
 - Folium
 - Openrouteservice
-categories: [Mapas]
+categories: []
 date: 2022-03-29T15:48:56-06:00
 lastmod: 2022-03-29T15:48:56-06:00
 featured: false
