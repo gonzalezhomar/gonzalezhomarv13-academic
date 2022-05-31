@@ -71,6 +71,6 @@ Candidata de Movimiento Ciudadano a Gobernadora de Aguascalientes. Su cuenta de 
 
 ### 3.3 María Teresa Jiménez Esquivel
 
-Candidata de la alianza Va por México a Gobernadora de Aguascalientes. Su cuenta de twitter se puede consultar [aquí](https://twitter.com/TereJimenezE). Se encuentra activa en twitter desde 2010, tiene más 32 mil seguidores, con lo que es la candidata con más seguidores, pero sólo sigue a más de 1 mil 600 usuarios con lo que es la segunda candidata que más cuentas sigue en esta red. De acuerdo a las respuestas que tiene, estas son las principales palabras que le responden en Twitter:
+Candidata de la alianza Va por México (PAN-PRI-PRD) a Gobernadora de Aguascalientes. Su cuenta de twitter se puede consultar [aquí](https://twitter.com/TereJimenezE). Se encuentra activa en twitter desde 2010, tiene más 32 mil seguidores, con lo que es la candidata con más seguidores, pero sólo sigue a más de 1 mil 600 usuarios con lo que es la segunda candidata que más cuentas sigue en esta red. De acuerdo a las respuestas que tiene, estas son las principales palabras que le responden en Twitter:
 
 ![imagen](./static/ags3.png)
