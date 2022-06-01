@@ -61,7 +61,7 @@ Si bien, me gustaría analizar a todos los candidatos de la elección para 2022,
 
 Candidata del PAN a Gobernadora de Oaxaca. Su cuenta de twitter se puede consultar [aquí](https://twitter.com/NatyDiazPAN). Se encuentra activa en twitter desde 2011, tiene casi 8 mil seguidores, y sigue a más de 500 usuarios con lo cual es la candidata con menor actividad en esta red social. De acuerdo a las respuestas que tiene, estas son las principales palabras que le responden en Twitter:
 
-![imagen](./static/oax1.png)
+![imagen](./static/oax3.png)
 
 ### 3.2 Salomón Jara Cruz
 
@@ -73,4 +73,4 @@ Candidato de Juntos Hacemos Historia en Oaxaca (Morena-PT-PVEM-PUP) a Gobernador
 
 Candidato de la alianza PRI-PRD a Gobernador de Oaxaca. Su cuenta de twitter se puede consultar [aquí](https://twitter.com/_AvilesAlvarez). Se encuentra activa en twitter desde 2010, tiene más 23 mil seguidores, con lo que es el candidato con más seguidores, pero sólo sigue a más de casi 600 usuarios con lo que es el segundo candidato que más cuentas sigue en esta red. De acuerdo a las respuestas que tiene, estas son las principales palabras que le responden en Twitter:
 
-![imagen](./static/oax3.png)
+![imagen](./static/oax1.png)
