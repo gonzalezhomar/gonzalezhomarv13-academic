@@ -61,7 +61,7 @@ Si bien, me gustaría analizar a todos los candidatos de la elección para 2022,
 
 Candidato de Movimiento Ciudadano a Gobernador de Quintana Roo. Su cuenta de twitter se puede consultar [aquí](https://twitter.com/DrJLPech). Se encuentra activo en twitter desde 2015, tiene más 9 mil seguidores, con lo cual es el candidato con menos seguidores, pero sigue a más de 3 mil 700 usuarios con lo cual es el segundo candidato que más cuentas sigue en esta red. De acuerdo a las respuestas que tiene, estas son las principales palabras que le responden en Twitter:
 
-![imagen](./static/qroo1.png)
+![imagen](./static/qroo3.png)
 
 ### 3.2 Mara Lezama Espinosa
 
@@ -73,4 +73,4 @@ Candidata por la alianza Juntos Hacemos Historia (Morena-PT-PVEM-FXM) en Quintan
 
 Candidata de la alianza Va por Quintana Roo (PAN-PRD-CQR) a Gobernadora. Su cuenta de twitter se puede consultar [aquí](https://twitter.com/LauFdzOficial). Se encuentra activa en twitter desde 2010, tiene más 24 mil seguidores, con lo cual es la segunda candidata con más seguidores, pero sigue a más de 3 mil 800 usuarios con lo que es la candidata que más cuentas sigue en esta red. De acuerdo a las respuestas que tiene, estas son las principales palabras que le responden en Twitter:
 
-![imagen](./static/qroo3.png)
+![imagen](./static/qroo1.png)
