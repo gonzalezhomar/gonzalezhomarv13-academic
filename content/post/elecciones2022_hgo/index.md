@@ -61,7 +61,7 @@ Si bien, me gustaría analizar a todos los candidatos de la elección para 2022,
 
 Candidato de Movimiento Ciudadano a Gobernador de Hidalgo. Su cuenta de twitter se puede consultar [aquí](https://twitter.com/FRANCISCOXAV1ER). Se encuentra activo en twitter desde 2015, tiene más 3 mil seguidores y sigue a más de 100 usuarios con lo cual es el candidato menos activo en esta red. De acuerdo a las respuestas que tiene, estas son las principales palabras que le responden en Twitter:
 
-![imagen](./static/hgo1.png)
+![imagen](./static/hgo3.png)
 
 ### 3.2 Julio Menchaca Salazar
 
@@ -73,4 +73,4 @@ Candidato de Juntos Hacemos Historia (Morena-PT-Nueva Alianza) a Gobernador de H
 
 Candidata de la alianza Va por Hidalgo (PAN-PRI-PRD) a Gobernadora. Su cuenta de twitter se puede consultar [aquí](https://twitter.com/caroviggiano). Se encuentra activa en twitter desde 2009, tiene más 137 mil seguidores y sigue a más de 2 mil 600 usuarios, por lo cual, es la candidata más activa en esta red. De acuerdo a las respuestas que tiene, estas son las principales palabras que le responden en Twitter:
 
-![imagen](./static/hgo3.png)
+![imagen](./static/hgo1.png)
