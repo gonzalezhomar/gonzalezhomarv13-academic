@@ -39,5 +39,6 @@ Así que utilizando ese ejemplo y la api de [Mapbox](https://www.mapbox.com), pa
 <iframe
     src='./static/rutas.html'
     width='100%'
+    height='500px'
     style='border:none;'>
 </iframe>
