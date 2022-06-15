@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.css'
+          rel='stylesheet' />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.js">
+    </script>
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+
+<div id="container">
+   <div id="map"></div>
+   <canvas id="deck-canvas"></canvas>
+</div>
+
+<script>
+
+requirejs.config({"baseUrl": "js/lib",
+                  "paths": {
+    "my_mapboxgl" : 'https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl',
+    "h3" :       'https://cdn.jsdelivr.net/npm/h3-js@3.6.4/dist/h3-js.umd',
+    "my_deck" :  'https://unpkg.com/deck.gl@~8.0.2/dist.min',
+    "my_d3" :    'https://d3js.org/d3.v5.min',
+    "s2Geometry" : 'https://cdn.statically.io/gh/gonzalezhomar/gonzalezhomarv13-academic/master/content/post/optibus1/static/s2geometry'
+    }
+ });
+
+
+require(['my_mapboxgl', 'my_deck', 'my_d3', 's2Geometry'], function(mapboxgl,deck,d3) {
+
+
+  // --- mapboxgl ----------------------------------------------------------
+  const INITIAL_VIEW_STATE = {
+    latitude: 21.118267747415125,
+    longitude: -101.66180091722033,
+    zoom: 12,
+    bearing: 30,
+    pitch: 60
+  };
+
+  mapboxgl.accessToken = 'pk.eyJ1IjoiZ29uemFsZXpob21hciIsImEiOiJja2gyenp0a2swdTE4MnlyeDAzcXVwZ21zIn0.aq44iK9DBlrfwoUNz4UODQ';
+  var mymap = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/mapbox/streets-v9',
+                center: [INITIAL_VIEW_STATE.longitude, INITIAL_VIEW_STATE.latitude],
+                zoom: INITIAL_VIEW_STATE.zoom,
+                bearing: INITIAL_VIEW_STATE.bearing,
+                pitch: INITIAL_VIEW_STATE.pitch,
+                interactive: true
+              });
+
+  mymap.on('load', () => {
+    var layers = mymap.getStyle().layers;
+    var labelLayerId;
+    for (var i = 0; i < layers.length; i++) {
+      if (layers[i].type === 'symbol' && layers[i].layout['text-field']) {
+        labelLayerId = layers[i].id;
+        break;
+      }
+    }
+
+
+    mymap.addLayer({
+      'id': '3d-buildings',
+      'source': 'composite',
+      'source-layer': 'building',
+      'filter': ['==', 'extrude', 'true'],
+      'type': 'fill-extrusion',
+      'minzoom': 15,
+      'paint': {
+        'fill-extrusion-color': '#aaa',
+        // use an 'interpolate' expression to add a smooth transition effect to the
+        // buildings as the user zooms in
+        'fill-extrusion-height': ["interpolate", ["linear"], ["zoom"], 15, 0,
+                                   15.05, ["get", "height"] ],
+        'fill-extrusion-base': ["interpolate", ["linear"], ["zoom"], 15, 0,
+                                  15.05, ["get", "min_height"] ],
+        'fill-extrusion-opacity': .6
+       }
+    }, labelLayerId);
+  });
+
+  // ---  -------------------------------------------------------------
+  function color_arc(x){
+    if (x == 0){
+      return [0,160,0];
+    }
+    else{
+      return [250,0,0];
+    }
+  };
+
+  // The positions of lights specified as [x, y, z], in a flattened array.
+  // The length should be 3 x numberOfLights
+  const LIGHT_SETTINGS = {
+    lightsPosition: [-101.588984920469113, 21.0615971219998, 2000,
+                     -101.263934056342489, 21.22658309103259, 4000],
+    ambientRatio: 0.4,
+    diffuseRatio: 0.6,
+    specularRatio: 0.2,
+    lightsStrength: [0.8, 0.0, 0.8, 0.0],
+    numberOfLights: 2
+  };
+
+  // scatterplots of busstops points
+  scatter_layer =  new deck.ScatterplotLayer({
+    id: 'busstops_1',
+    pickable: true,
+    data: d3.json('https://raw.githubusercontent.com/gonzalezhomar/gonzalezhomarv13-academic/master/content/post/optibus1/static/ruta_1.json'),
+    getPosition: d => [d.longitude, d.latitude,10],
+    getColor: [0,0,0],
+    radiusScale: 30
+  });
+
+  scatter_layer2 =  new deck.ScatterplotLayer({
+    id: 'busstops_2',
+    pickable: true,
+    data: d3.json('https://raw.githubusercontent.com/gonzalezhomar/gonzalezhomarv13-academic/master/content/post/optibus1/static/ruta_1.json'),
+    getPosition: d => [d.next_longitude, d.next_latitude,10],
+    getColor: [0,0,0],
+    radiusScale: 20
+  });
+
+  arcs_layer = new deck.ArcLayer({
+    id: 'busroute',
+    data: d3.json('https://raw.githubusercontent.com/gonzalezhomar/gonzalezhomarv13-academic/master/content/post/optibus1/static/ruta_1.json'),
+    pickable: false,
+    getWidth: 12,
+    getSourcePosition: d => [d.longitude, d.latitude],
+    getTargetPosition: d => [d.next_longitude, d.next_latitude],
+    getSourceColor:  d => color_arc(d.sens),
+    getTargetColor:  d => color_arc(d.next_sens)
+  });
+
+  const mydeck = new deck.Deck({
+    canvas: 'deck-canvas',
+    width: '100%',
+    height: '100%',
+    initialViewState: INITIAL_VIEW_STATE,
+    controller: true,
+    layers: [scatter_layer,scatter_layer2,arcs_layer],
+    onViewStateChange: ({viewState}) => {
+      mymap.jumpTo({
+        center: [viewState.longitude, viewState.latitude],
+        zoom: viewState.zoom,
+        bearing: viewState.bearing,
+        pitch: viewState.pitch
+     });
+    }
+  });
+
+});
+</script>
+
+</body>
+</html>
