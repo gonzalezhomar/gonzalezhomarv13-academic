@@ -37,7 +37,7 @@ Como me gustan los mapas, me pareció muy interesante encontrar esta notebook, d
 Así que utilizando ese ejemplo y la api de [Mapbox](https://www.mapbox.com), para la cual me regitré hace mucho tiempo, replique el mismo mapa para la ruta 1 troncal de las líneas del [Optibus](https://www.leon.gob.mx/movilidad/articulo.php?a=93) en código HTML:
 
 <iframe
-    src='./static/ruta_1.html'
+    src='./static/rutas.html'
     width='100%'
     style='border:none;'>
 </iframe>
