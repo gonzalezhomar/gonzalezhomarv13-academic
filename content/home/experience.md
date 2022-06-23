@@ -30,11 +30,13 @@ experience:
     date_end: ''
     description: |2-
 
-        * Amplio conocimiento de finanzas públicas, legislación fiscal, información contable, económica y financiera.
-        * Manejo de bases de datos y distintos softwares.
-        * Modelación económica y estadística para estudios de impacto y elaboración de pronóstico de ingresos del Estado.
-        * Integración de información municipal para reportes.
-        * Elaboración de informes ejecutivos.
+        * Amplio conocimiento de finanzas públicas, legislación fiscal, información contable, económica y financiera. 
+        * Manejo de bases de datos y programación (Excel, VBA, Stata, Gretl Python R).
+        * Coordinación de procesos en materia de planeación y programación de presupuestos.
+        * Modelación económica y estadística para estudios de impacto y pronósticos. 
+        * Seguimiento y Administración de Proyectos. 
+        * Elaboración de informes ejecutivos y dashboards. 
+        * Seguimiento de indicadores económicos y reportes financieros.
 
   - title: Analista de Información Económica
     company: Secretaría de Finanzas, Inversión y Administración
