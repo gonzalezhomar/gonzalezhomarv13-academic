@@ -22,12 +22,28 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Responsable de Gobierno de Datos
+    company: Caja Popular Mexicana S.C.
+    company_url: 'https://www.cpm.coop'
+    location: León, Gto.
+    date_start: '2023-08-31'
+    date_end: ''
+    description: |2-
+
+        * Elaboración del Plan de Gobierno de Datos en Caja Popular Mexicana.
+        * Manejo de Bases de Datos y Programación (SQL, Python). 
+        * Limpieza y análisis de calidad de las Bases de Datos.
+        * Automatización y Simplificación de Procesos (Python).
+        * Modelación estadística de series de tiempo. 
+        * Elaboración de informes ejecutivos y dashboards.
+        * 
+    
   - title: Jefe de Coordinación Hacendaria
     company: Secretaría de Finanzas, Inversión y Administración
     company_url: 'http://finanzas.guanajuato.gob.mx/#/'
     location: Guanajuato, Gto.
     date_start: '2014-02-15'
-    date_end: ''
+    date_end: '2022-08-31'
     description: |2-
 
         * Amplio conocimiento de finanzas públicas, legislación fiscal, información contable, económica y financiera. 
